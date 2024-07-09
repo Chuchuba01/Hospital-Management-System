@@ -1,0 +1,33 @@
+/* Custom styles for the hospital management website */
+
+/* Header styling */
+h2 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    line-height: 1.2;
+    margin-top: 1rem;
+    color: #28a745;
+}
+
+/* Navigation link active state */
+.nav-link.active {
+    background-color: #e9ecef;
+    color: #007bff;
+}
+
+/* Custom navigation link styles */
+.custom-nav-link {
+    font-size: 1rem;
+    color: #007bff;
+    transition: color 0.3s, background-color 0.3s;
+}
+
+.custom-nav-link:hover {
+    color: #0056b3;
+    background-color: #f8f9fa;
+}
+
+.custom-nav-link:focus {
+    outline: none;
+    box-shadow: none;
+}
